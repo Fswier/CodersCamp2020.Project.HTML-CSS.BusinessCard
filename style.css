@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    display: grid;
+}
+
+ul li {
+    grid-template-columns: repeat(5, 1fr);
+}
